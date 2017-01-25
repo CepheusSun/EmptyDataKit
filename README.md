@@ -26,6 +26,14 @@ pod "EmptyDataKit"
 
 
 
+this kit is also added to the other repository named `SBAnimation`  and the demo in `SBAnimation` is cleaner more clearly. so sorry that I don't want to replace this demo with `SBAnimation` . so I show you the screenshot in that demo here too. you can go [there](https://github.com/SolarBee/SBAnimation)  to read my codes if you need to.
+
+
+
+<img src="http://ojno1pj4x.bkt.clouddn.com/EmptyDataKit.gif">
+
+
+
 
 
 ## Usage

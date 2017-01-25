@@ -8,14 +8,18 @@
 
 <img src="http://ocg4av0wv.bkt.clouddn.com/ProgramerSunnyDemo.gif" width= "400" />
 
+另外这个工具也被我添加进了我来一个叫做`SBAnimation`的仓库中,而且`SBAnimation`中的demo代码更干净和间接，而且完整的示范了这个工具的使用方法。由于精力有限，暂时还没有动力将这里的demo代码替换。所以我也将`SBAnimation`中的截图放到这里来。如果需要的话可以过去看看。[地址](https://github.com/SolarBee/SBAnimation)
+
+<img src="http://ojno1pj4x.bkt.clouddn.com/EmptyDataKit.gif">
+
+
+
 ## 使用
-**0、**框架依赖与`BlocksKit`请在`podfile`中添加`pod 'BlocksKit'`并且在终端执行`pod install --no-repo-update`。
+**0、**框架依赖与`BlocksKit`请在`podfile`中添加`pod 'BlocksKit'`并且在终端执行`pod install --no-repo-update`。如果直接拖进你的工程记得添加 pod BlocksKit
 
-**1、**首先将`EmptyDataKit`导入工程
+**1、**首先 `pod 'EmptyDataKit'`
 
-<img src="http://ocg4av0wv.bkt.clouddn.com/D8321BD1-550B-4A72-825A-6BD8EB3D332B.png" width="300" />
-
-**2、**导入头文件`#import "EmptyDataKit.h"`
+**2、**导入头文件`#import <EmptyDataKit/EmptyDataKit.h>`
 
 **3、**在`viewdidload`中添加如下代码
 
