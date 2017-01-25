@@ -1,4 +1,4 @@
-# EmptyDataKit
+# EmptyDataKit  [中文](https://github.com/ProgramerSunny/EmptyDataKit/blob/master/README_CN.md)
 
 [![CI Status](http://img.shields.io/travis/孙扬/EmptyDataKit.svg?style=flat)](https://travis-ci.org/孙扬/EmptyDataKit)
 [![Version](https://img.shields.io/cocoapods/v/EmptyDataKit.svg?style=flat)](http://cocoapods.org/pods/EmptyDataKit)
