@@ -84,7 +84,5 @@ typedef NS_ENUM(NSUInteger ,EmptyDataType) {
 
 ## TODO：
 
-~~1. 添加CocoaPods 支持。~~
-2. 进一步规范文档。
-3. 移除对BlocksKit的依赖。
-
+1. 进一步规范文档。
+2. 移除对BlocksKit的依赖。
