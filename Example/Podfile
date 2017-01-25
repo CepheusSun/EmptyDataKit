@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmptyDataKit_Example' do
+  pod 'EmptyDataKit', :path => '../'
+
+  target 'EmptyDataKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
