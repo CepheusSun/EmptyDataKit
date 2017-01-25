@@ -1,11 +1,5 @@
-use_frameworks!
+target 'EmptyDataDemo' do
 
-target 'EmptyDataKit_Example' do
-  pod 'EmptyDataKit', :path => '../'
+pod 'BlocksKit'
 
-  target 'EmptyDataKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

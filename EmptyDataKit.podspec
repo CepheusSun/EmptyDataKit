@@ -8,35 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmptyDataKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EmptyDataKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.1'
+  s.summary          = 'A simple and light framework helps you to add a friendly placeholder view when your UITableView or UICollectionView is empty with data'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+A simple and light framework helps you to add a friendly placeholder view when your UITableView or UICollectionView is empty with data. And EmptyDataKit is also very simple to use, you can only give the widget a property, and it will work.
+DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/EmptyDataKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ProgramerSunny/EmptyDataKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '孙扬' => 'cd_sunyang@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/EmptyDataKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'ProgramerSunny' => 'cd_sunyang@163.com' }
+  s.source           = { :git => 'https://github.com/ProgramerSunny/EmptyDataKit.git', :tag => 0.1 }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'EmptyDataKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EmptyDataKit' => ['EmptyDataKit/Assets/*.png']
-  # }
+  s.source_files = 'EmptyDataKit/Classes/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BlocksKit'
 end
