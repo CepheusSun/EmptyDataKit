@@ -67,8 +67,10 @@ so that if you want to show different image or description words you can use thi
 
 ## Author
 
-ProgramerSunny, cd_sunyang@163.com
+CepheusSun, cd_sunyang@163.com
 
 ## License
 
 EmptyDataKit is available under the MIT license. See the LICENSE file for more info.
+
+
