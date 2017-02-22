@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmptyDataKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A simple and light framework helps you to add a friendly placeholder view when your UITableView or UICollectionView is empty with data'
 
   s.description      = <<-DESC
